@@ -1,0 +1,100 @@
+body{
+  width: 100%;
+	background-color: #02010a;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 600;
+	height: 100%;
+}
+.up{
+  width: 80%;
+	margin: auto;
+	background-color: #d5c75f;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+	flex-flow: row wrap;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.cabeza{
+  font-size: 50px;
+}
+.menu{
+	display: inline-block;
+	color: white;
+  font-size: 40px;
+}
+.menu{
+  font-size: 20px;
+  text-align: center;
+  padding-right: 30px;
+}
+.menu a{
+  color: white;
+}
+
+.menu li{
+	display: inline-block;
+  margin: 10px;
+}
+.contenedor{
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 80%;
+  background-color: #82c3a6;
+}
+.item {
+  margin: 20px;
+  width: 400px;
+}
+.rt{
+  width: 100%
+}
+.footer{
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.footer a{
+  color: black;
+}
+.com{
+  width: 300px;
+  font-size: 30px;
+  margin: 20px;
+}
+.log{
+  width: 40px;
+}
+
+#i01{
+filter: blur(10px);
+}
+
+#i02{
+filter: grayscale(100%);
+}
+
+#i03{
+filter: sepia(80%);
+}
+
+#i04{
+filter: opacity(50%);
+}
+
+#i05{
+filter: brightness(50%);
+}
+
+#i06{
+filter: invert(100%);
+}
